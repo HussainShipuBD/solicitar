@@ -180,7 +180,8 @@
     padding: 18px 0 0;
 }
 ._1card:hover ._1card_title{
-    color:var(--primaivory)
+    color:var(--primaivory);
+    text-decoration: none;
 }
 ._1card_title{
     font-size: 18px;
@@ -188,8 +189,10 @@
     transition:.2s all ease;
     color: var(--color);
     margin: 0 0 14px;
+    text-decoration: none;
 }
 ._1card_text{
+    text-decoration: none;
     color: var(--color3);
     font-size: 15px;
     line-height: 23px;
